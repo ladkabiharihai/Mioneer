@@ -1,0 +1,7 @@
+{
+  "/About/page": "app/About/page.js",
+  "/HRSolution/page": "app/HRSolution/page.js",
+  "/service/page": "app/service/page.js",
+  "/Contact/page": "app/Contact/page.js",
+  "/Aicustomer/page": "app/Aicustomer/page.js"
+}

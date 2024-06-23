@@ -1,0 +1,75 @@
+.nav{
+    display: flex;
+    gap: 40rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: rgb(37, 35, 35);
+}
+.logo{
+    position: relative;
+    font-size: 1.5rem;
+    
+    width: fit-content;
+    font-weight: bold;
+    color: #000;
+    height: 50px;
+
+}
+.logoSoluyionAI{
+    top: 1px;
+    position: absolute;
+    mix-blend-mode: multiply;
+    width: 100px;
+    height: 100px;
+   
+}
+.menu{
+    display: flex;
+ color: #000;
+    align-items: center;
+}
+.menu a{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+.menu a:hover{
+    color: #000;
+}
+
+.menu ul{
+    display: flex;
+    gap:2rem;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #000;
+
+}
+
+.menu li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-size: 600;
+    position: relative; /* Ensure position is relative for pseudo-elements */
+    cursor: pointer; /* Use pointer cursor to indicate interactivity */
+  }
+  
+  .menu li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.5s ease; /* Transition width property for animation */
+  }
+  
+  .menu li:hover::before {
+    width: 100%; /* Expand width to 100% on hover */
+  }
+  

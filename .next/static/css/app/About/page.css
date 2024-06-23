@@ -1,0 +1,276 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/Style/Card.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+
+.Card_container__EKSOL {
+	display: flex;
+	justify-content: center;
+	
+	gap: 50px;
+
+  }
+  @media screen and (max-width: 768px) {
+	.Card_container__EKSOL {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 2rem;
+	}
+  }
+  .Card_cardss__q9n_k{
+    display: flex;
+    justify-content: center;
+    margin-left:5%;
+    margin-top: 5%;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #000;
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 20px;
+	width: 280px;
+	height: 300px;
+   
+	transition: 0.5s;
+  }
+  
+  .Card_heading__prEG1{
+   
+    margin-top: 8%;
+    font-size: 1.6rem;
+    font-weight: 550;
+    letter-spacing: 2px;
+    color: #000;
+    letter-spacing: 1px;
+    
+    text-align: center;
+  }
+  .Card_container__EKSOL .Card_box__Fi8JA::before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 50px;
+	width: 50%;
+	height: 100%;
+	text-decoration: none;
+	background: #fff;
+	border-radius: 8px;
+	transform: skewX(15deg);
+	transition: 0.5s;
+  }
+  .Card_sectionChildAbout__8GY4g{
+   
+
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 8%;
+    font-weight: 500;
+    color: #000;
+   
+  }
+  
+.Card_Item__t1__L {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background:transparent;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #2b033d;
+    border: 0.5px solid #c6c3c7;
+    padding: 1rem 3rem;
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  .Card_Imgsection__ZbiZs{
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 270px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin-top: 5%;
+
+   
+  }
+  .Card_Textbox__BMP4C{
+    width: 700px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 500;
+    
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50px;
+	width: 50%;
+	height: 100%;
+	background: #fff;
+	border-radius: 8px;
+	filter: blur(30px);
+	transform: skewX(15deg);
+	transition: 0.5s;
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA:hover::before,
+  .Card_container__EKSOL .Card_box__Fi8JA:hover::after {
+	left: 20px;
+	width: calc(100% - 90px);
+	transform: skewX(0deg);
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA:hover span::before {
+	top: -50px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	opacity: 1;
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA:hover span::after {
+	bottom: -50px;
+	right: 50px;
+	width: 100px;
+	height: 100px;
+	opacity: 1;
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA:hover .Card_content1__SReY9 {
+	left: -25px;
+	padding: 60px 40px;
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA:nth-child(1)::before,
+  .Card_container__EKSOL .Card_box__Fi8JA:nth-child(1)::after {
+    background: url(/_next/static/media/Ai6.a75ae6b9.jpg);
+    
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA:nth-child(2)::before,
+  .Card_container__EKSOL .Card_box__Fi8JA:nth-child(2)::after {
+    background: url(/_next/static/media/ai7.7f7d4e4a.jpg);
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA:nth-child(3)::before,
+  .Card_container__EKSOL .Card_box__Fi8JA:nth-child(3)::after {
+    background: url(/_next/static/media/ai8.c630cc6e.jpg);
+  }
+  .Card_container__EKSOL .Card_box__Fi8JA:nth-child(4)::before,
+  .Card_container__EKSOL .Card_box__Fi8JA:nth-child(4)::after {
+    background: url(/_next/static/media/ai9.17636649.jpeg);
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA span {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+	pointer-events: none;
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA span::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.1);
+	-webkit-backdrop-filter: blur(10px);
+	        backdrop-filter: blur(10px);
+	opacity: 0;
+	transition: 0.5s;
+	animation: Card_animate__taUfm 2s ease-in-out infinite;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA span::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.1);
+	-webkit-backdrop-filter: blur(10px);
+	        backdrop-filter: blur(10px);
+	opacity: 0;
+	transition: 0.5s;
+	animation: Card_animate__taUfm 2s ease-in-out infinite;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+	animation-delay: -1s;
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA .Card_content1__SReY9 {
+	position: relative;
+	z-index: 1;
+	left: 0;
+	padding: 20px 40px;
+	color: #fff;
+	border-radius: 8px;
+	-webkit-backdrop-filter: blur(10px);
+	        backdrop-filter: blur(10px);
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	transition: 0.5s;
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA .Card_content1__SReY9 h2 {
+	margin-bottom: 10px;
+	font-size: 2em;
+	color: #b1b1b1;
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA .Card_content1__SReY9 p {
+	margin-bottom: 10px;
+	font-size: 0.8rem;
+	font-weight: 300;
+	line-height: 1em;
+	margin-top: 10px;
+
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA .Card_content1__SReY9 a {
+	display: inline-block;
+	margin-top: 5px;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: 400;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid rgb(255 255 255 / 50%);
+	background-color: transparent;
+	transition: .25s;
+  }
+  
+  .Card_container__EKSOL .Card_box__Fi8JA .Card_content1__SReY9 a:hover {
+	color: #111;
+	background-color: #fff;
+  }
+  
+  @keyframes Card_animate__taUfm {
+	0%, 100% {
+	  transform: translateY(10px);
+	}
+	50% {
+	  transform: translate(-10px);
+	}
+  }
+  
+ 
