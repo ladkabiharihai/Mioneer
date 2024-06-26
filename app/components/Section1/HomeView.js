@@ -42,6 +42,7 @@ const HomeView = () => {
                 <meta name="keywords" content="AI, SaaS, Mioneer Private Limited, tech services, AI solutions" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="canonical" href="https://www.mioneer.in/" />
+                <link rel="icon" href="/mioneer.png" />
                 <meta property="og:title" content="Mioneer Private Limited - AI-Based SaaS Solutions" />
                 <meta property="og:description" content="Mioneer Private Limited offers innovative AI-based SaaS solutions to enhance your business operations. Contact us for AI and tech services." />
                 {/* <meta property="og:image" content="https://www.solutionai.us/path-to-image.jpg" /> */}
@@ -52,17 +53,21 @@ const HomeView = () => {
                 <div className={style.section1}>
                     <div className={style.TextBox}>
                         <div className={style.textSectionParent}>
-                            <div className={style.textsection}>
-                                <h1>Trust</h1>
-                                <div className="content1">
-                                    <h2>Innovate</h2>
-                                    <h2>Innovate</h2>
-                                </div>
-                                <h1>Thrive. Succeed.</h1>
-                                <div className={style.Buttonsection}>
-                                    <button className={style.button} onClick={() => router.push('/service')}>Get Started</button>
-                                </div>
+                        <div className={style.textsection}>
+                            <div className={style.textSectionH1}><h1>Trust</h1></div>
+                            <div>
+                            <div className="content1">
+                                <h2>Innovate</h2>
+                                <h2>Innovate</h2>
                             </div>
+                            </div>
+                            <div>
+                        </div>
+                        </div>
+                        <div className={style.text2}><h1>Trive. Succeed.</h1></div>
+                        <div className={style.Buttonsection}>
+                        <button className={style.button}  onClick={()=>router.push('/service')}>Get Started</button>
+                        </div>
                         </div>
                     </div>
                 </div>
