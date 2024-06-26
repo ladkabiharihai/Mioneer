@@ -17,28 +17,6 @@
       "static/chunks/main-app.js",
       "static/css/app/About/page.css",
       "static/chunks/app/About/page.js"
-    ],
-    "/service/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/service/page.js"
-    ],
-    "/Contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Contact/page.js"
-    ],
-    "/HRSolution/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/HRSolution/page.css",
-      "static/chunks/app/HRSolution/page.js"
-    ],
-    "/Aicustomer/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/Aicustomer/page.css",
-      "static/chunks/app/Aicustomer/page.js"
     ]
   }
 }
